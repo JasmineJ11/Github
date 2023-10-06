@@ -66,12 +66,12 @@ public class AgeExerciseJiawei {
 		else if (age %10 == 0)
 		{
 			System.out.println("Anniversary Party!");
+			
+			if (age == 100)
+			
+				System.out.println("Congratulations!\nCongratulations!\nCongratulations!"); 
 		}
 		
-		else if (age == 100)
-		{
-			System.out.println("Congratulations!\n Congratulations!\nCongratulations!"); 
-		}
 		
 		else if (age >= 40 && age <= 50)
 		{
