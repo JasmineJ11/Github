@@ -63,7 +63,7 @@ public class AgeExerciseJiawei {
 			System.out.println("You can drive a car."); 
 		}
 		
-		else if (age == 10 || age == 20 || age ==30 || age ==40 || age ==50 || age ==60 || age ==70 || age ==80 || age ==90 || age ==100 || age ==110 || age ==120 )
+		else if (age %10 == 0)
 		{
 			System.out.println("Anniversary Party!");
 		}
